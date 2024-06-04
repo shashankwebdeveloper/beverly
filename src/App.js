@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Main from './components/Main';
 import ProductsPage from './components/ProductsPage';
-import { BrowserRouter as Router,Routes, Route, Switch } from 'react-router-dom';
-import { useEffect } from 'react';
+import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
+
 
 function App() {
 
