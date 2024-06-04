@@ -1,0 +1,40 @@
+
+.headerMain{
+    border-bottom: 3px solid black;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.secondone{
+    margin-right: 35px;
+}
+
+.searchText{
+margin-left:15px;
+outline: none;
+border: none;
+border-bottom: 2px solid black;
+}
+
+.thirdone{
+margin-right: 35px;
+}
+
+.deliveries a{
+    text-decoration: none;
+    color:#747474;
+    font-weight: 500;
+}
+
+.trucks{
+    color:#747474;
+    font-weight: 500;
+}
+
+.belowtopBar{
+    color: #5A5A5A;
+    font-weight: 500;
+    margin: 0px 30px;
+    text-decoration: none;
+}
+

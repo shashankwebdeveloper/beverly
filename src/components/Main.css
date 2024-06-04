@@ -1,0 +1,98 @@
+.shoes{
+    border:1px solid #ccc;
+    border-radius:6px;
+    width: 200px;
+
+}
+
+.shoesouter{
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.shoessecond{
+    padding: 4px;
+}
+
+.productbrand{
+    color:#747474;
+    font-size: 16px;
+}
+
+.productprice{
+    font-weight: bold ;
+}
+
+.previousprice{
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.discountprice{
+    color: white;
+    background-color: #EC6034;
+    margin: 0px 10px;
+}
+
+.sizechart{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.size{
+    background-color: white;
+    color: black;
+}
+
+.buyoneclickbtn{
+    background-color: #EC6034;
+    color: white;
+    width:400px;
+    padding: 12px;
+    border: 1px solid #EC6034;
+    border-radius: 6px;
+    margin:6px 0px;
+
+}
+.addtocartbtn{
+    background-color: #1E1E20;
+    color: white;
+    width:400px;
+    padding: 12px;
+    border: 1px solid #1E1E20;
+    border-radius: 6px;
+    margin:6px 0px;
+
+}
+
+
+.toorder{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: white;
+    opacity: 1;
+    color: black;
+    display: inline-block;
+    margin: 6px 5px;
+    border: 2px solid black;
+}
+/* #1E1E20 */
+
+.instock{
+    border:1px solid #ccc;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #E5E5E5;
+    color: gray;
+    opacity: 1;
+    display: inline-block;
+    margin: 6px 5px;
+}
