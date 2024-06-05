@@ -13,7 +13,7 @@ const Header = () => {
       </div>
       <div className='col d-flex justify-content-center deliveries' >
       <button  className='secondone'>Delivery</button>
-      <button  className='secondone'>Trade-in</button>
+      <button  className='secondone'>Trade</button>
       <button  className='secondone'>BEVERLY</button>
       <button  className='secondone'>Pickup</button>
       <button  className='secondone'>stock</button>

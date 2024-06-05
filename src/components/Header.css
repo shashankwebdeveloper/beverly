@@ -20,8 +20,10 @@ border-bottom: 2px solid black;
 margin-right: 35px;
 }
 
-.deliveries a{
+.deliveries button{
     text-decoration: none;
+    border:none;
+    background-color: white;
     color:#747474;
     font-weight: 500;
 }
@@ -38,3 +40,10 @@ margin-right: 35px;
     text-decoration: none;
 }
 
+button{
+    text-decoration: none;
+    border:none;
+    background-color: white;
+    color:#747474;
+    font-weight: 500;
+}
