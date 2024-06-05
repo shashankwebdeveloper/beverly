@@ -19,7 +19,7 @@ const Main = () => {
   return (
     <div>
       {/* <div>
-        <a href='' className='belowtopBar'>New Arrivals</a>
+        <span href='' className='belowtopBar'>New Arrivals</a>
         <a href='' className='belowtopBar'>Best sellers</a>
         <a href='' className='belowtopBar'>Hype</a>
         <a href='' className='belowtopBar'>Footwear</a>
@@ -67,9 +67,9 @@ const Main = () => {
     Size
   </button>
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><span class="dropdown-item" >Action</span></li>
+    <li><span class="dropdown-item" >Another action</span></li>
+    <li><span class="dropdown-item" >Something else here</span></li>
   </ul>
 </div>
 <div class="dropdown mt-2 mb-2 ">
@@ -77,9 +77,9 @@ const Main = () => {
     Color
   </button>
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><span class="dropdown-item" >Action</span></li>
+    <li><span class="dropdown-item" >Another action</span></li>
+    <li><span class="dropdown-item" >Something else here</span></li>
   </ul>
 </div>
         </div>
