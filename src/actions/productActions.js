@@ -1,4 +1,4 @@
-import { type } from "@testing-library/user-event/dist/type";
+
 import axios from "axios";
 
 export const FETCH_PRODUCTS_REQUEST='FETCH_PRODUCTS_REQUEST';
@@ -50,6 +50,7 @@ export const  fetchProducts=()=>{
         .catch(error=>{
             const errorMsg=error.message;
             dispatch(fetchProductsFailure("build failed"));
+            console.log(errorMsg);
 
         });
     };
